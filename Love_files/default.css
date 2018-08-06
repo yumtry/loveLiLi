@@ -1,8 +1,6 @@
 body{margin:0;padding:0;background:#ffe;font-size:.26rem;font-family:'微软雅黑','宋体',sans-serif;color:#231F20;overflow:auto}
 a {color:#000;font-size:.26rem;}
-/*#main{width:100%;}*/
-@media only screen and (min-width : 320px) {#main{width:100%;} } 
-@media only screen and (min-width : 1000px) {#main{height:100%;} } 
+#main{width:100%;}
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
 #text{width:5rem;height:10rem;left:.3rem;top:.4rem;position:absolute;}
 #code{display:none;font-size:.20rem;}
