@@ -1,5 +1,1 @@
-ÕâÊÇÒ»¸ö±í°×³ÌÐò£¬¿É×ÔÐÐÐÞ¸Ä
-ÕâÀï£¬ÒªÐÞ¸ÄµÄµØ·½Ö÷ÒªÓÐ£º
-1.Ê±¼ä£ºÇëÐÞ¸Älove.html,µÚ188ÐÐ£¬setfullyearÉèÖÃÄêÔÂÈÕ£¬È»ºóÉèÖÃÊ±£¬·Ö£¬Ãë£¬ÕâÀïÉèÖÃµÄÊÇÔÚÒ»ÆðµÄ¿ªÊ¼Ê±¼ä£¬³ÌÐò»á×Ô¶¯¼ÆËã¼ºÓÐ¶à³¤Ê±¼ä¡£
-2.ÐÞ¸ÄÄãÒª±í°×ËµµÄ»°£¬ÇëÐÞ¸ÄLove.htmlµÚ23ÐÐ¿ªÊ¼¡£
-3.Ô´ÂëÀïµÄconfig.yamlºÍindex.php¶¼ÎÞÓÃ£¬ÊÇÐÂÀË×ÔÐÐ²úÉúµÄÎÄ¼þ£¬¿ÉÒÔÉ¾³ý
+è¿™æ˜¯ä¸€ä¸ªç¨‹åºå‘˜è¡¨ç™½ç¨‹åºï¼Œå¯æ ¹æ®éœ€è¦è‡ªè¡Œä¿®æ”¹
