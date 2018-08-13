@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0027)http://itzoo.info/love.html -->
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>男生 Love 女神</title>
+    <title>男神 Love 女神</title>
         
         <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
         <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
@@ -85,7 +85,7 @@
             seed: {
                 x: width / 2 - 20,
                 color: "rgb(190, 26, 37)",
-                scale: 2
+                scale: 5
             },
             branch: [
                 [535, 680, 570, 250, 500, 200, 30, 100, [
@@ -124,7 +124,7 @@
 
         canvas.click(function(e) {
             var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
+            x = e.pageX - offset.left - 100;
             y = e.pageY - offset.top;
             if (seed.hover(x, y)) {
                 hold = 0; 
