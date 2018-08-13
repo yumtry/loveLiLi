@@ -54,19 +54,19 @@
     <script>
     (function(){
         //rem屏幕的适配
-        function Rem() {
-            var docEl = document.documentElement,
-                oSize = docEl.clientWidth / 7.5;
+        //function Rem() {
+        //    var docEl = document.documentElement,
+        //        oSize = docEl.clientWidth / 7.5;
+//
+ //           if (oSize > 100) {
+  //              oSize = 100; // 限制rem值 640 / 6.4 =100
+   //         }
 
-            if (oSize > 100) {
-                oSize = 100; // 限制rem值 640 / 6.4 =100
-            }
+     //       docEl.style.fontSize = oSize + 'px';
+  //      }
 
-            docEl.style.fontSize = oSize + 'px';
-        }
-
-        window.addEventListener('resize', Rem, false);
-        Rem();
+//        window.addEventListener('resize', Rem, false);
+//        Rem();
 
         var canvas = $('#canvas');
 
@@ -85,7 +85,7 @@
             seed: {
                 x: width / 2 - 50,
                 color: "rgb(190, 26, 37)",
-                scale: 5
+                scale: 4
             },
             branch: [
                 [535, 680, 570, 250, 500, 200, 30, 100, [
@@ -124,7 +124,7 @@
 
         canvas.click(function(e) {
             var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left - 100;
+            x = e.pageX - offset.left;
             y = e.pageY - offset.top;
             if (seed.hover(x, y)) {
                 hold = 0; 
@@ -207,7 +207,7 @@
             $("#clock-box").fadeIn(500);
             while (true) {
                 timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
+                $await(Jscex.Async.sleep(500));
             }
         }));
 
