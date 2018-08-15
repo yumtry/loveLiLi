@@ -45,8 +45,8 @@
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <!--audio id="Jaudio" src="love.mp3" autoplay preload loop="loop"></audio>-->
-			<audio src="love.mp3" autoplay="autoplay" loop="loop"></audio>
+            <audio src="love.mp3" id="Jaudio" class="media-audio" autoplay preload loop="loop"></audio>
+			<!--<audio src="love.mp3" autoplay="autoplay" loop="loop"></audio>-->
         </div>
     
     <script>
@@ -73,7 +73,7 @@
         Rem();
 		
 		//微信自动播音乐
-		/*function audioAutoPlay(id){  
+		function audioAutoPlay(id){  
 			var audio = document.getElementById(id),  
 				play = function(){  
 					audio.play();  
@@ -89,14 +89,6 @@
 			document.addEventListener("touchstart",play, false);  
 		}  
 		audioAutoPlay('Jaudio');
-		function audioAutoPlay(id){
-			var audio = document.getElementById(id);
-			audio.play();
-			document.addEventListener("WeixinJSBridgeReady", function () {
-				audio.play();
-			}, false);
-		}
-		audioAutoPlay("Jaudio");*/
 		
 		/*function responsiveChart() {
 			var wSize = $(window).width();  //获取浏览器宽度
