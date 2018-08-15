@@ -45,7 +45,8 @@
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <audio id="Jaudio" src="love.mp3" autoplay preload loop="loop"></audio>
+            <!--audio id="Jaudio" src="love.mp3" autoplay preload loop="loop"></audio>-->
+			<audio src="love.mp3" autoplay="autoplay" loop="loop"></audio>
         </div>
     
     <script>
@@ -87,7 +88,7 @@
 			}, false);  
 			document.addEventListener("touchstart",play, false);  
 		}  
-		audioAutoPlay('Jaudio');*/
+		audioAutoPlay('Jaudio');
 		function audioAutoPlay(id){
 			var audio = document.getElementById(id);
 			audio.play();
@@ -95,7 +96,7 @@
 				audio.play();
 			}, false);
 		}
-		audioAutoPlay("Jaudio");
+		audioAutoPlay("Jaudio");*/
 		
 		/*function responsiveChart() {
 			var wSize = $(window).width();  //获取浏览器宽度
