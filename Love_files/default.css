@@ -4,7 +4,7 @@ a {color:#000;font-size:.26rem;}
 #text{width:5rem;height:10rem;left:.3rem;top:.4rem;position:absolute;}*/
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:400px;}
 #code{display:none;font-size:.23rem;color:#149E8A;/*color:#00A2E8;*/}
-#clock-box {position:absolute;left:.5rem;top:780px;font-size:.34rem;display:none;}
+#clock-box {position:absolute;left:.5rem;top:760px;font-size:.34rem;display:none;}
 #clock-box a {font-size:.34rem;text-decoration:none;}
 #clock{margin-left:48px;}
 #clock .digit {font-size:.54rem;}
@@ -14,4 +14,4 @@ a {color:#000;font-size:.26rem;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
 #main{margin:0 auto;width:1100px;height:680px;}
-#text{width:4.5rem; height:5rem; left:.3rem; top:1.8rem; position:absolute;}
+#text{width:4.5rem; height:5rem; left:.3rem; top:1.4rem; position:absolute;}
