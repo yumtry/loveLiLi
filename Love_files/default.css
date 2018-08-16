@@ -3,7 +3,7 @@ a {color:#000;font-size:.26rem;}
 /*#main{width:100%;}
 #text{width:5rem;height:10rem;left:.3rem;top:.4rem;position:absolute;}*/
 #wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:400px;}
-#code{display:none;font-size:.20rem;}
+#code{display:none;font-size:.23rem;color:#149E8A;/*color:#00A2E8;*/}
 #clock-box {position:absolute;left:.5rem;top:780px;font-size:.34rem;display:none;}
 #clock-box a {font-size:.34rem;text-decoration:none;}
 #clock{margin-left:48px;}
